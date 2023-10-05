@@ -11,6 +11,7 @@ import java.util.HashSet;
 @SpringBootApplication
 public class AccountApplication implements CommandLineRunner {
 
+	int deneme;
 	private final CustomerRepository customerRepository;
 
 	public AccountApplication(CustomerRepository customerRepository) {
